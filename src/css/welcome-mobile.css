@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@300..700&display=swap');
+.welcome-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+  .small-title {
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(150 / 100);
+  }
+
+  .welcome-heading {
+    margin-top: 16px;
+    font-family: Aboreto, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: calc(120 / 100);
+    letter-spacing: -0.36px;
+    width: 288px;
+  }
+
+  .welcome-text {
+    margin-top: 32px;
+    width: 288px;
+    font-size: 18px;
+  }
+
+  .fnd-location {
+    width: 288px;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px 24px;
+    border-radius: 100px;
+    background-color: rgba(111, 78, 55, 1);
+    color: white;
+
+
+  }
+
+  .location-icon {
+    fill: white;
+  }
+  .welcome-image {
+    margin-top: 32px;
+    border-radius: 40px;
+  }
