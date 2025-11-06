@@ -1,9 +1,15 @@
 @media (min-width: 768px) {
+  .welcome{
+    height: 704px;
+  }
 
 .welcome-content{
   display: flex;
   flex-direction: row;
   gap: 32px;
+  align-items: flex-start;
+
+
 }
   .fnd-location{
     width: 181px;
@@ -12,14 +18,25 @@
     width: 338px;
   }
   .welcome-heading{
-    width: 336px;
+    width: 338px;
+    margin: 0;
   }
   .welcome-heading-container {
-    margin-top: 40px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-content: center;
+    align-self: flex-start;
+    margin-top: 33px;
   }
 
 
 }
 .welcome-image{
 
+}
+.welcome-heading-container h4,
+.welcome-heading-container h2 {
+  margin: 0;
 }

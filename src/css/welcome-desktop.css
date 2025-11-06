@@ -1,0 +1,46 @@
+@media (min-width: 1440px) {
+  .welcome-heading{
+    height: 150px;
+    width: 640px;
+    font-size: 48px;
+
+  }
+  .welcome-text{
+    width: 640px;
+  }
+.welcome-content{
+  gap: 32px;
+}
+.welcome-heading-container{
+  margin-top: 33px;
+}
+.welcome-image{
+  margin: 80px 64px 64px;
+}
+.fnd-location{
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1),
+  background-color 0.3s;
+;
+}
+.fnd-location:hover{
+background-color: rgba(111, 78, 55, 0.5);
+color: rgba(255, 255, 255, 0.5);
+  box-shadow:
+    0px 1px 2px 0px rgba(11, 8, 3, 0.05),
+    inset 0px -2px 1px 0px #00000033,
+    inset 0px 0px 0px 1px rgba(11, 8, 3, 0.15),
+    inset 0px 2px 1px 0px #FFFFFF40,
+    inset 0px 32px 24px 0px #FFFFFF0D;
+
+
+}
+.fnd-location:hover svg{
+  fill: rgba(255, 255, 255, 0.5);
+}
+.fnd-location:active{
+  background-color: rgba(111, 78, 55, 1);
+  color: white;
+  box-shadow: none;
+
+}
+}
