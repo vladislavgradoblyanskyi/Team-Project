@@ -26,10 +26,10 @@
 
 .mobile-btn {
   position: absolute;
-  top: 24px;
-  right: 28px;
-  width: 24px;
-  height: 24px;
+  top: 12px;
+  right: 16px;
+  width: 48px;
+  height: 48px;
   display: flex;
   justify-content: center;
   align-items: center;
