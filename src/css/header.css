@@ -16,6 +16,8 @@
 .burger-btn {
   border: none;
   background-color: transparent;
+  width: 48px;
+  height: 48px;
 }
 
 .burger-icon {
