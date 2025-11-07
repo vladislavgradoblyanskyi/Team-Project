@@ -1,0 +1,118 @@
+.footer-container {
+  background-color: #b58869;
+  padding: 24px 16px;
+}
+
+.footer-wrap {
+  border: 1px solid rgba(11, 8, 3, 0.15);
+  border-radius: 40px;
+  padding: 32px 46px;
+  max-width: 100%;
+  background-color: #c29d84;
+  margin-bottom: 32px;
+}
+.footer-logo-wrapper {
+}
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.footer-socials-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-socials-item {
+}
+.footer-link {
+  color: inherit;
+}
+.footer-socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 32px;
+}
+.footer-social-icon {
+}
+.footer-nav {
+}
+.footer-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-nav-item {
+}
+.footer-nav-link {
+}
+.footer-description {
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-container {
+    padding: 24px 32px;
+  }
+  .footer-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 124px;
+    padding-right: 124px;
+  }
+  .footer-socials-logo {
+    flex-direction: row;
+    margin: 0 auto 32px;
+  }
+  .footer-logo {
+    width: 84px;
+    height: 36px;
+  }
+  .footer-social-icon {
+    width: 24px;
+    height: 24px;
+  }
+  .footer-socials {
+    margin: 0;
+  }
+  .footer-nav-list {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-container {
+    padding: 24px 64px;
+  }
+  .footer-wrap {
+    display: flex;
+    align-items: center;
+    padding: 32px 48px;
+  }
+  .footer-socials-logo {
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    margin-right: auto;
+  }
+
+  .footer-link-social {
+    transition: opacity 250ms ease-in-out;
+  }
+
+  .footer-link-social:focus,
+  .footer-link-social:hover {
+    opacity: 0.5;
+  }
+}
