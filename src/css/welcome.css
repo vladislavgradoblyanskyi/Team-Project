@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@300..700&display=swap');
+/* Styles for Mobile devices */
+.welcome {
+  height: 100vh;
+}
+.welcome-container {
+  padding: 64px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.small-title {
+  font-family: Quicksand, sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(150 / 100);
+}
+
+.welcome-heading {
+  font-family: Aboreto, sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: calc(120 / 100);
+  letter-spacing: -0.36px;
+  width: 288px;
+}
+
+.welcome-text {
+  width: 288px;
+  font-size: 18px;
+}
+
+.fnd-location {
+  width: 288px;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 10px 24px;
+  border-radius: 100px;
+  background-color: rgba(111, 78, 55, 1);
+  box-shadow: 0px 1px 2px 0px rgba(11, 8, 3, 0.05) inset,
+    0px -2px 1px 0px #00000033 inset, 0px 0px 0px 1px rgba(11, 8, 3, 0.15) inset,
+    0px 2px 1px 0px #ffffff40 inset, 0px 32px 24px 0px #ffffff0d inset;
+  color: white;
+  outline: none;
+  border: none;
+}
+
+.location-icon {
+  fill: white;
+}
+.welcome-image {
+  margin-top: 32px;
+  border-radius: 40px;
+}
+
+/* Styles for Tablet devices */
+@media (min-width: 768px) {
+  .welcome-container {
+    padding-right: 32px;
+    padding-left: 32px;
+  }
+  .welcome {
+    height: 704px;
+  }
+
+  .welcome-content {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+  }
+  .fnd-location {
+    width: 181px;
+  }
+  .welcome-text {
+    width: 338px;
+  }
+  .welcome-heading {
+    width: 338px;
+    margin: 0;
+  }
+  .welcome-heading-container {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-content: center;
+    align-self: flex-start;
+  }
+}
+.welcome-image {
+}
+.welcome-heading-container h4,
+.welcome-heading-container h2 {
+  margin: 0;
+}
+/* Styles for Desktop devices */
+@media (min-width: 1440px) {
+  .welcome-container {
+    padding-right: 64px;
+    padding-left: 64px;
+  }
+  .welcome-heading {
+    height: 150px;
+    width: 640px;
+    font-size: 48px;
+  }
+  .welcome-text {
+    width: 640px;
+  }
+  .welcome-content {
+    gap: 32px;
+  }
+  .welcome-image {
+    margin-top: 80px;
+  }
+  .fnd-location {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1), background-color 0.3s;
+  }
+  .fnd-location:hover {
+    background-color: rgba(111, 78, 55, 0.5);
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 1px 2px 0px rgba(11, 8, 3, 0.05),
+      inset 0px -2px 1px 0px #00000033,
+      inset 0px 0px 0px 1px rgba(11, 8, 3, 0.15),
+      inset 0px 2px 1px 0px #ffffff40, inset 0px 32px 24px 0px #ffffff0d;
+  }
+  .fnd-location:hover svg {
+    fill: rgba(255, 255, 255, 0.5);
+  }
+  .fnd-location:active {
+    background-color: rgba(111, 78, 55, 1);
+    color: white;
+    box-shadow: none;
+  }
+}
