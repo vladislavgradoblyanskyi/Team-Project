@@ -11,7 +11,7 @@ font-size: 16px;
 line-height: 1.5;
 text-align: center;
 color: #0b0803;
-margin-bottom: 32px;
+margin-bottom: 16px;
 }
 .quality-title{
 font-weight: 400;
@@ -39,8 +39,6 @@ gap: 24px;
 }
 .quality-img{
 border-radius: 32px;
-width: 288px;
-height: 164px;
 }
 .quality-list-item{
 display: flex;
