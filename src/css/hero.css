@@ -19,6 +19,7 @@
    .hero {
     max-width: 768px;
     height: 900px;
+    padding: 311px 176px 311px 32px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_tab-min.jpg);
   }
   
@@ -33,6 +34,7 @@
 @media only screen and (min-width: 1400px) {
    .hero {
     max-width: 1440px;
+    padding: 259px 816px 259px 64px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_desk-min.jpg);
   }
 
@@ -42,3 +44,70 @@
       }
   }
 }
+
+.hero-container {
+    min-width: 256px;
+    padding: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-container {
+    min-width: 560px;
+  }
+}
+
+.hero-title {
+    font-family: "Aboreto",sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 1400px) {
+   .hero-title {
+    font-size: 56px;
+  }
+}
+
+.hero-text {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 32px;
+}
+
+.hero-btn {
+    display: block;
+    min-width: 135px;
+    height: 44px;
+    border-radius: 100px;
+    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+    background-color: #6f4e37;
+    padding: 10px 24px;
+    border: none;
+
+    transition-property: background-color, box-shadow, opacity ;
+    transition-duration: 250ms; 
+    transition-timing-function: ease-in-out;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+    background-color: #6f4e37;
+    opacity: 0.5;
+}
+
+
+.hero-link {
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+
+    transition: color 250ms ease-in-out;
+}
+
+
+
