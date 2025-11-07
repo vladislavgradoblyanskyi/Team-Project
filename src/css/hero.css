@@ -11,7 +11,7 @@
 
 @media  (min-resolution: 192dpi) {
    .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_desk@2x-min.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_mob@2x-min.jpg);
   }
 }
 
