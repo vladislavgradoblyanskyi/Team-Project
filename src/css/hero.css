@@ -1,11 +1,13 @@
 .hero {
+    max-width: 375px;
+    margin: auto;
+    padding-top: 108.5px;
+    padding-bottom: 108.5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     background-color: #b5b4b3;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_mob-min.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 644px;
-    margin: 0 auto;
-    max-width: 375px;
 }
 
 @media  (min-resolution: 192dpi) {
@@ -17,7 +19,8 @@
 @media only screen and (min-width: 768px) {
    .hero {
     max-width: 768px;
-    height: 900px;
+    padding-top: 311.5px;
+    padding-bottom: 311.5px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_tab-min.jpg);
   }
   
@@ -32,6 +35,8 @@
 @media only screen and (min-width: 1400px) {
    .hero {
     max-width: 1440px;
+    padding-top: 259px;
+    padding-bottom: 259px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_desk-min.jpg);
   }
 
@@ -43,20 +48,18 @@
 }
 
 .hero-container {
-    min-width: 256px;
-    padding: 108px 32px;
+    padding-left: 32px;
 }
 
 @media only screen and (min-width: 768px) {
   .hero-container {
-    min-width: 560px;
-    padding: 311px 176px 311px 32px;
+    padding-left: 32px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
 .hero-container {
-    padding: 259px 816px 259px 64px;
+    padding-left: 64px;
   }
 }
 
@@ -68,12 +71,18 @@
     line-height: 1.2;
     letter-spacing: -0.01em;
     color: #fff;
+    max-width: 256px;
     margin-bottom: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+   .hero-title {
+    max-width: 560px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
    .hero-title {
-    width: 560px;
     font-size: 56px;
   }
 }
@@ -82,6 +91,12 @@
     font-size: 18px;
     color: #fff;
     margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-text {
+    max-width: 560px;
+  }
 }
 
 @media only screen and (min-width: 1440px) {
