@@ -1,11 +1,11 @@
 .hero {
-    max-width: 320px;
     background-color: #b5b4b3;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(/img/hero/hero_mob-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 644px;
     margin: 0 auto;
+    max-width: 375px;
 }
 
 @media  (min-resolution: 192dpi) {
@@ -61,6 +61,7 @@
 }
 
 .hero-title {
+    text-align: left;
     font-family: "Aboreto",sans-serif;
     font-weight: 400;
     font-size: 40px;
