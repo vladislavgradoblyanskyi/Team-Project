@@ -73,3 +73,38 @@
   </div>
   <p class="footer-description">© 2025 CoffeeJoy. All rights reserved.</p>
 </footer>
+<div class="backdrop">
+  <div class="modal">
+    <button type="button" class="backdrop-btn" data-modal-close>
+      <svg class="close-icon" width="14" height="14">
+        <use href="../img/sprite.svg#icon-close"></use>
+      </svg>
+    </button>
+    <p class="backdrop-title">Welcome to the world of CoffeeJoy!</p>
+    <p class="backdrop-descr">
+      Fresh brews, special offers, and cozy updates are coming your way.
+    </p>
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ../img/backdrop/backdrop_big.jpg    1x,
+          ../img/backdrop/backdrop_big@2x.jpg 2x
+        "
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="../img/backdrop/backdrop_mobile.jpg 1x  
+        ../img/backdrop/backdrop_mobile@2x.jpg 2x"
+      />
+      <img
+        class="backdrop-image"
+        src="../img/backdrop/backdrop_mobile.jpg"
+        alt="coffe illustration"
+        width="256"
+        height="200"
+      />
+    </picture>
+    <button class="close-modal-button" type="button">Close</button>
+  </div>
+</div>
