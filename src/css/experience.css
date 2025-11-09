@@ -1,8 +1,7 @@
 @import url('base.css');
 
 .exp-cont {
-    margin-top: 64px;
-    margin-bottom: 64px;
+    padding: 64px 0;
 }
 
 .chapter {
@@ -33,10 +32,6 @@
         gap: 32px;
     }
 
-    .exp-cont {
-        padding: 0 32px;
-    }
-
     .exp-item {
         flex: 1 1 calc(50% - 32px);
     }
@@ -58,26 +53,29 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .exp-item {
+        flex: 1 1 100%;
+    }
+}
+
 .exp-img {
     border-radius: 32px;
-    width: 288px;
-    height: 288px;
+    width: 100%;
     min-width: 200px;
     min-height: 200px;
 }
 
 .sm-img {
     border-radius: 32px;
-    width: 288px;
-    height: 162px;
+    width: 100%;
     min-width: 200px;
     min-height: 112px;
 }
 
 .lg-img {
     border-radius: 32px;
-    width: 288px;
-    height: 391px;
+    width: 100%;
     min-width: 200px;
     min-height: 300px;
 }
@@ -98,7 +96,6 @@
     }
 
     .lg-img {
-        width: 100%;
         min-width: 300px;
         min-height: 300px;
     }
