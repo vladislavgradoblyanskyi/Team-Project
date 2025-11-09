@@ -1,75 +1,74 @@
 @import url('base.css');
 
 .test-cont {
-    padding: 64px 0;
+  padding: 64px 0;
 }
 
 .head-test {
-    text-align: left;
-    margin-bottom: 24px;
+  text-align: left;
+  margin-bottom: 24px;
 }
 
 .test-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 
 .test-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    border: 1px solid rgba(11, 8, 3, 0.15);
-    border-radius: 32px;
-    padding: 31px;
-    width: 100%;
-    min-width: 265px;
-    background-color: #c29d84;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid rgba(11, 8, 3, 0.15);
+  border-radius: 32px;
+  padding: 31px;
+  width: 100%;
+  min-width: 265px;
+  background-color: #c29d84;
 }
 
 .icon-block {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
-    .test-item {
-        flex: 1 1 calc(50% - 24px);
-        display: flex;
-        height: 253px;
-        min-width: 310px;
-    }
+  .test-item {
+    flex: 1 1 calc(50% - 24px);
+    display: flex;
+    height: 253px;
+  }
 
-    .icon-block {
-        margin-bottom: 0px;
-    }
+  .icon-block {
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
-    .test-item {
-        flex: 1 1 calc(25% - 24px);
-        display: flex;
-        height: 303px;
-        min-width: 310px;
-    }
+  .test-item {
+    flex: 1 1 calc(25% - 24px);
+    display: flex;
+    height: 303px;
+    min-width: 310px;
+  }
 
-    .head-test {
-        display: block;
-        width: 416px;
-        font-size: 48px;
-    }
+  .head-test {
+    display: block;
+    width: 416px;
+    font-size: 48px;
+  }
 }
 
 .test-icon {
-    height: 19px;
-    margin-bottom: 24px;
+  height: 19px;
+  margin-bottom: 24px;
 }
 
 .description {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .name-test {
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
 }
