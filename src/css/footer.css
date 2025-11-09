@@ -154,9 +154,13 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop-btn {
-  top: 33px;
-  right: 33px;
+  width: 32px;
+  height: 32px;
+  top: 24px;
+  right: 24px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   background: none;
   border: none;
@@ -255,7 +259,7 @@
     padding: 64px;
   }
   .backdrop-btn {
-    right: 82px;
+    right: 73px;
   }
   .backdrop-btn:hover {
     opacity: 50%;
