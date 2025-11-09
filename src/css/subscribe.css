@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@300..700&display=swap');
 
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
 ul,
 ol {
     padding-left: 0;
@@ -50,7 +56,7 @@ img {
 
 .subscribe-title {
     font-family: "Aboreto", sans-serif;
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 400;
     line-height: 1.2;
     margin-bottom: 24px;
@@ -143,7 +149,7 @@ font-weight: 400;
         }
     
         .subscribe-description {
-            font-size: 20px;
+            font-size: 18px;
             margin-bottom: 32px;
         }
     
@@ -186,7 +192,7 @@ font-weight: 400;
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
-                    gap: 64px;
+                    gap: 32px;
                     background-color: #e0cbb4;
                     
                 }
@@ -252,4 +258,4 @@ font-weight: 400;
                 .subscribe-btn:hover {
                     opacity: 0.5;
                 }
-                }
+        }
