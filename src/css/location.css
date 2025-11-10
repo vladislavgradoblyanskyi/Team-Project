@@ -2,14 +2,11 @@
     width: 100%;
     max-width: 375px;
     min-width: 320px;
-    padding: 64px 0px;
+    padding: 64px 16px;
     margin: 0 auto;
     align-items: center;
 }
  
-
-
-
 @media screen and (min-width: 1440px){
     .location-content{
         width: 1312px;
