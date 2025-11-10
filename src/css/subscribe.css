@@ -247,9 +247,10 @@ font-weight: 400;
     
         .subscribe-image img {
             border-radius: 40px;
+            object-fit: fill;
         }
         .subscribe-image {
-          object-fit: fill;
+          aspect-ratio: 640 / 400;
         }
 }
 
