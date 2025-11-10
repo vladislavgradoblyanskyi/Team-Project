@@ -1,6 +1,6 @@
 @import url('base.css');
 
-.test-cont {
+.testimonial {
   padding: 64px 0;
 }
 
@@ -21,7 +21,7 @@
   justify-content: space-between;
   border: 1px solid rgba(11, 8, 3, 0.15);
   border-radius: 32px;
-  padding: 31px;
+  padding: 32px;
   width: 100%;
   min-width: 265px;
   background-color: #c29d84;
@@ -35,11 +35,14 @@
   .test-item {
     flex: 1 1 calc(50% - 24px);
     display: flex;
-    height: 253px;
   }
 
   .icon-block {
     margin-bottom: 0px;
+  }
+
+  .description {
+    margin-bottom: 15px;
   }
 }
 
@@ -47,7 +50,6 @@
   .test-item {
     flex: 1 1 calc(25% - 24px);
     display: flex;
-    height: 303px;
     min-width: 310px;
   }
 
@@ -59,8 +61,14 @@
 }
 
 .test-icon {
-  height: 19px;
   margin-bottom: 24px;
+  display: flex;
+  gap: 4px;
+}
+
+.star-icon-not {
+  fill: transparent;
+  stroke: #0b0803;
 }
 
 .description {
