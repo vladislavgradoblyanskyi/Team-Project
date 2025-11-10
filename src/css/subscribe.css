@@ -55,6 +55,15 @@ img {
   padding: 64px 0;
 }
 
+.subscribe-section {
+    min-width: 320px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
 @media screen and (max-width: 374px) {  
   .email-input {
         width: 100%;
@@ -66,15 +75,6 @@ img {
     }
 }
 
-
-.subscribe-section {
-    min-width: 320px;
-    margin: 0 auto;
-    width: 100%;
-    max-width: 375px;
-    margin: 0 auto;
-    padding: 0 16px;
-}
 
 .subscribe-title {
     font-family: "Aboreto", sans-serif;
@@ -256,7 +256,6 @@ font-weight: 400;
         }
                 .subscribe-section {
                     max-width: 1280px;
-                    margin: 0 auto;
                     padding: 0 64px;
                     display: flex;
                     align-items: center;
