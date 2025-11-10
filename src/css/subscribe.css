@@ -198,7 +198,7 @@ font-weight: 400;
     }
 
         .subscribe-section {
-            max-width: 704px;
+            max-width: 768px;
             padding: 0 32px;
         }
     
@@ -255,7 +255,7 @@ font-weight: 400;
           padding: 0 64px;
         }
                 .subscribe-section {
-                    max-width: 1280px;
+                    max-width: 1440px;
                     padding: 0 64px;
                     display: flex;
                     align-items: center;
