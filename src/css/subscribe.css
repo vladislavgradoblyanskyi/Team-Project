@@ -6,6 +6,12 @@ body {
     padding: 0;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 ul,
 ol {
     padding-left: 0;
@@ -41,11 +47,40 @@ img {
 
 .container {
     width: 100%;
-    max-width: 375px;
-    min-width: 320px;
     margin: 0 auto;
     padding: 0 16px;
 }
+
+@media screen and (max-width: 374px) {
+    .subscribe-section {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 64px 16px;
+        background-color: #e0cbb4;
+    }
+
+    .email-input {
+        width: 100%;
+    }
+    .subscribe-btn {
+        width: 100%;
+        max-width: 288px;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .subscribe-section {
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 64px 16px;
+        background-color: #e0cbb4;
+    }
+}
+
+
 
 .subscribe-section {
     max-width: 320px;
@@ -78,7 +113,16 @@ font-weight: 400;
     margin-bottom: 16px;
 }
 
+.email-label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    max-width: 288px;
+}
+
 .email-input {
+    width: 100%;
     padding: 8px 12px;
     border-radius: 12px;
     border: 1px solid rgba(11, 8, 3, 0.15);
@@ -88,6 +132,33 @@ font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         color: rgba(11, 8, 3, 0.6);
+        outline: none;
+        transition: border-color 250ms ease,
+            box-shadow 250ms ease;;
+}
+
+.email-input:focus {
+    border-color: rgba(11, 8, 3, 0.15);
+}
+
+.email-input:invalid:not(:placeholder-shown) {
+    border-color: #7f1c1c;
+}
+
+.email-input:invalid:not(:placeholder-shown)+.error-text {
+    display: block;
+    opacity: 1;
+}
+
+.error-text {
+    display: none;
+    font-family: "Quicksand", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #7f1c1c;
+        opacity: 0;
+        transition: opacity 0.3s ease;
 }
 
 .subscribe-btn {
@@ -164,6 +235,15 @@ font-weight: 400;
             max-width: 340px;
         }
     
+.email-label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    max-width: 340px;
+    
+}
+
         .subscribe-btn {
             width: 158px;
             height: 44px;
