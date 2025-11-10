@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@300..700&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+@media screen and (max-width: 374px) {
+    .subscribe-section {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 64px 16px;
+        background-color: #e0cbb4;
+    }
+
+    .email-input {
+        width: 100%;
+    }
+    .subscribe-btn {
+        width: 100%;
+        max-width: 288px;
+        align-self: center;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .subscribe-section {
+        width: 100%;
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 64px 16px;
+        background-color: #e0cbb4;
+    }
+}
+
+
+
+.subscribe-section {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 64px 16px;
+    background-color: #e0cbb4;
+}
+
+.subscribe-title {
+    font-family: "Aboreto", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+.subscribe-description {
+font-family: "Quicksand", sans-serif;
+font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #0b0803;
+    margin-bottom: 32px;
+}
+
+.subscribe-form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.email-label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    max-width: 288px;
+}
+
+.email-input {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 12px;
+    border: 1px solid rgba(11, 8, 3, 0.15);
+    background: rgba(255, 255, 255, 0);
+    font-family: "Quicksand", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: rgba(11, 8, 3, 0.6);
+        outline: none;
+        transition: border-color 250ms ease,
+            box-shadow 250ms ease;;
+}
+
+.email-input:focus {
+    border-color: rgba(11, 8, 3, 0.15);
+}
+
+.email-input:invalid:not(:placeholder-shown) {
+    border-color: #7f1c1c;
+}
+
+.email-input:invalid:not(:placeholder-shown)+.error-text {
+    display: block;
+    opacity: 1;
+}
+
+.error-text {
+    display: none;
+    font-family: "Quicksand", sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.5;
+        color: #7f1c1c;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+}
+
+.subscribe-btn {
+    height: 44px;
+    background-color: #6f4e37;
+    color: #fff;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 24px;
+    gap: 12px;
+    box-shadow: 0 1px 2px 0 rgba(11, 8, 3, 0.05), inset 0 -2px 1px 0 rgba(0, 0, 0, 0.2), inset 0 0 0 1px rgba(11, 8, 3, 0.15), inset 0 2px 1px 0 rgba(255, 255, 255, 0.25), inset 0 32px 24px 0 rgba(255, 255, 255, 0.05);
+}
+
+.btn-icon {
+    fill: #fff;
+}
+
+.terms-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #0b0803;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+.subscribe-image img {
+    width: 100%;
+    display: block;
+}
+
+.subscribe-image {
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+        .subscribe-section {
+            max-width: 704px;
+            padding: 64px 32px;
+        }
+    
+        .subscribe-title {
+            font-size: 36px;
+            margin-bottom: 24px;
+        }
+    
+        .subscribe-description {
+            font-size: 18px;
+            margin-bottom: 32px;
+        }
+    
+        .subscribe-form {
+            flex-direction: row;
+            gap: 24px;
+            margin-bottom: 16px;
+        }
+    
+        .email-input {
+            flex: 1;
+            max-width: 340px;
+        }
+    
+.email-label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    width: 100%;
+    max-width: 340px;
+    
+}
+
+        .subscribe-btn {
+            width: 158px;
+            height: 44px;
+            font-size: 16px;
+            padding: 10px 24px;
+        }
+    
+        .terms-text {
+            font-size: 12px;
+            margin-bottom: 32px;
+        }
+    
+        .subscribe-image img {
+            border-radius: 40px;
+        }
+        }
+
+        @media screen and (min-width: 1440px) {
+        .container {
+          max-width: 1440px;
+          padding: 0 64px;
+        }
+                .subscribe-section {
+                    max-width: 1280px;
+                    margin: 0 auto;
+                    padding: 64px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 32px;
+                    background-color: #e0cbb4;
+                    
+                }
+        
+                .subscribe-text-content {
+                    flex: 1;
+                    max-width: 600px;
+                }
+        
+                .subscribe-title {
+                    font-size: 48px;
+                    letter-spacing: -0.01em;
+                    line-height: 1.2;
+                    text-align: left;
+                    margin-bottom: 24px;
+                }
+        
+                .subscribe-description {
+                    font-size: 18px;
+                    line-height: 1.5;
+                    text-align: left;
+                    margin-bottom: 32px;
+                }
+        
+                .subscribe-form {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 16px;
+                    margin-bottom: 16px;
+                }
+        
+                .email-input {
+                    width: 339px;
+                }
+        
+                .subscribe-btn {
+                    padding: 10px 24px;
+                    font-size: 16px;
+                    transition: opacity 250ms ease-in-out;
+                }
+        
+                .terms-text {
+                    text-align: left;
+                    font-size: 12px;
+                    margin: 0;
+                }
+        
+                .subscribe-image {
+                    flex: 1;
+                    max-width: 640px;
+                    border-radius: 40px;
+                    overflow: hidden;
+                }
+        
+                .subscribe-image img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    border-radius: 40px;
+                }
+                .subscribe-btn:focus,
+                .subscribe-btn:hover {
+                    opacity: 0.5;
+                }
+        }

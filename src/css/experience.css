@@ -1,0 +1,133 @@
+.container-exp {
+  width: 100%;
+  max-width: 375px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+/* Styles for Tablet devices */
+@media screen and (min-width: 768px) {
+  .container-exp {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+/* Styles for Desktop devices */
+@media screen and (min-width: 1440px) {
+  .container-exp {
+    max-width: 1440px;
+    padding: 0 64px;
+  }
+}
+
+
+.exp-section {
+    padding: 64px 0;
+}
+
+.chapter {
+    margin-bottom: 32px;
+}
+
+.exp-h {
+    margin-bottom: 24px;
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #0b0803;
+}
+
+.exp-mes {
+    font-size: 18px;
+    text-align: center;
+}
+
+.exp-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+@media screen and (min-width: 768px) {
+    .exp-list {
+        gap: 32px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .exp-list {
+        flex-direction: column;
+        max-height: 948px;
+    }
+
+    .exp-h {
+        font-size: 48px;
+    }
+}
+
+.exp-img {
+    border-radius: 32px;
+    width: 100%;
+    min-width: 200px;
+    min-height: 200px;
+}
+
+.sm-img {
+    border-radius: 32px;
+    width: 100%;
+    min-width: 200px;
+    min-height: 112px;
+}
+
+.lg-img {
+    width: 100%;
+    aspect-ratio: 288/391;
+    object-fit: cover;
+    border-radius: 32px;
+    min-width: 200px;
+    min-height: 300px;
+}
+
+@media screen and (min-width: 768px) {
+    .exp-img {
+        width: 336px;
+        height: 336px;
+        min-width: 300px;
+        min-height: 300px;
+    }
+
+    .sm-img {
+        width: 336px;
+        height: 189px;
+        min-width: 300px;
+        min-height: 168px;
+    }
+
+    .lg-img {
+        min-width: 300px;
+        min-height: 300px;
+        aspect-ratio: 704/391;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .exp-img {
+        width: 416px;
+        height: 416px;
+    }
+
+    .sm-img {
+        width: 416px;
+        height: 234px;
+    }
+
+    .lg-img {
+        width: 416px;
+        height: 416px;
+        aspect-ratio: auto;
+    }
+}

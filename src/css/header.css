@@ -2,11 +2,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 16px;
 }
 
 .header-logo {
   padding: 18px 0;
   align-items: center;
+}
+
+.logo-icon {
+  display: block;
 }
 
 .header-nav {
@@ -16,6 +21,9 @@
 .burger-btn {
   border: none;
   background-color: transparent;
+  width: 48px;
+  height: 48px;
+  padding: 0;
 }
 
 .burger-icon {
@@ -34,6 +42,10 @@
   .nav-list {
     display: flex;
     column-gap: 32px;
+  }
+
+  .header .container {
+    padding: 0 64px;
   }
 
   .nav-link {
