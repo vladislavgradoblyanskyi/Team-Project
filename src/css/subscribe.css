@@ -231,7 +231,6 @@ font-weight: 400;
     gap: 4px;
     width: 100%;
     max-width: 340px;
-    
 }
 
         .subscribe-btn {
@@ -248,9 +247,9 @@ font-weight: 400;
     
         .subscribe-image img {
             border-radius: 40px;
-            aspect-ratio: 704 / 400;
+            aspect-ratio: 704/400;
         }
-        }
+}
 
         @media screen and (min-width: 1440px) {
         .container {
