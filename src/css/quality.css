@@ -107,6 +107,9 @@
   }
 }
 @media only screen and (min-width: 1440px) {
+  .quality-title {
+    font-size: 48px;
+  }
   .quality-list-item {
     display: flex;
     flex-direction: column;

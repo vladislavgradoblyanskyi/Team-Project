@@ -1,3 +1,27 @@
+.container-exp {
+  width: 100%;
+  max-width: 375px;
+  min-width: 320px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+/* Styles for Tablet devices */
+@media screen and (min-width: 768px) {
+  .container-exp {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+}
+/* Styles for Desktop devices */
+@media screen and (min-width: 1440px) {
+  .container-exp {
+    max-width: 1440px;
+    padding: 0 64px;
+  }
+}
+
+
 .exp-section {
     padding: 64px 0;
 }
