@@ -51,16 +51,12 @@ img {
     padding: 0 16px;
 }
 
-@media screen and (max-width: 374px) {
-    .subscribe-section {
-        width: 100%;
-        max-width: 100%;
-        margin: 0 auto;
-        padding: 64px 16px;
-        background-color: #e0cbb4;
-    }
+.sbc-sec {
+  padding: 64px 0;
+}
 
-    .email-input {
+@media screen and (max-width: 374px) {  
+  .email-input {
         width: 100%;
     }
     .subscribe-btn {
@@ -70,23 +66,14 @@ img {
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 767px) {
-    .subscribe-section {
-        width: 100%;
-        max-width: 375px;
-        margin: 0 auto;
-        padding: 64px 16px;
-        background-color: #e0cbb4;
-    }
-}
-
-
 
 .subscribe-section {
-    max-width: 320px;
+    min-width: 320px;
     margin: 0 auto;
-    padding: 64px 16px;
-    background-color: #e0cbb4;
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
 .subscribe-title {
