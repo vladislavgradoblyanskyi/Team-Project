@@ -1,5 +1,3 @@
-@import url('base.css');
-
 .exp-section {
     padding: 64px 0;
 }
@@ -10,6 +8,13 @@
 
 .exp-h {
     margin-bottom: 24px;
+    font-family: "Aboreto", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #0b0803;
 }
 
 .exp-mes {
@@ -33,6 +38,10 @@
     .exp-list {
         flex-direction: column;
         max-height: 948px;
+    }
+
+    .exp-h {
+        font-size: 48px;
     }
 }
 
