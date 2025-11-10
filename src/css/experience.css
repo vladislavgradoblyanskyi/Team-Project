@@ -1,6 +1,6 @@
 @import url('base.css');
 
-.exp-cont {
+.exp-section {
     padding: 64px 0;
 }
 
@@ -17,39 +17,22 @@
     text-align: center;
 }
 
-.exp-grid {
+.exp-list {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
 }
 
-.exp-grid ul {
-    display: contents;
-}
-
 @media screen and (min-width: 768px) {
-    .exp-grid {
+    .exp-list {
         gap: 32px;
-    }
-
-    .exp-item {
-        flex: 1 1 calc(50% - 32px);
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .exp-grid {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        width: max-content;
-        margin-inline: auto;
-    }
-
-    .exp-grid ul {
-        display: flex;
+@media (min-width: 1440px) {
+    .exp-list {
         flex-direction: column;
-        gap: 32px;
+        max-height: 948px;
     }
 }
 
