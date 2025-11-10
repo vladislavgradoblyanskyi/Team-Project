@@ -26,6 +26,7 @@ padding: 64px 0;
   line-height: calc(120 / 100);
   letter-spacing: -0.36px;
   width: 288px;
+  margin-bottom: 32px;
 }
 
 .welcome-text {
@@ -61,6 +62,9 @@ padding: 64px 0;
 
 /* Styles for Tablet devices */
 @media (min-width: 768px) {
+  .welcome-heading {
+    margin-bottom:0;
+  }
   .welcome-container {
     padding-right: 32px;
     padding-left: 32px;
