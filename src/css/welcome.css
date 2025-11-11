@@ -85,6 +85,11 @@ padding: 64px 0;
     gap: 32px;
     align-items: flex-start;
   }
+
+  .welcome-image {
+    max-width: none;
+  }
+  
   .fnd-location {
     width: 181px;
   }
@@ -126,7 +131,6 @@ padding: 64px 0;
   }
   .welcome-image {
     margin-top: 80px;
-    max-width: none;
   }
   .fnd-location {
     transition: cubic-bezier(0.075, 0.82, 0.165, 1), background-color 0.3s;
