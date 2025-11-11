@@ -250,7 +250,8 @@ font-weight: 400;
             object-fit: fill;
         }
         .subscribe-image {
-          aspect-ratio: 640 / 400;
+          width: 704px;
+          height: 400px;
         }
 }
 
