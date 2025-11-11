@@ -96,6 +96,7 @@ padding: 64px 0;
   }
   .welcome-text {
     width: 338px;
+    max-width: none;
   }
   .welcome-heading {
     width: 338px;
