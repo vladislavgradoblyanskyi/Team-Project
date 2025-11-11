@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Quicksand:wght@300..700&display=swap');
 /* Styles for Mobile devices */
-
 .welcome-container {
   padding: 0 16px;
   display: flex;
@@ -30,6 +29,8 @@ width: 100%;
   line-height: calc(120 / 100);
   letter-spacing: -0.36px;
   width: 288px;
+  margin-bottom: 32px;
+  text-align: start;
 }
 
 .welcome-text {
